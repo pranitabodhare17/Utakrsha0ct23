@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+	  <groups>
+		  <dependencies>
+			  <group name= "sanity" depends-on= "e2e" ></group>
+		  </dependencies>  
+	  </groups>
+    <classes>
+      <class name="TestNGPrograms.DependentTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
