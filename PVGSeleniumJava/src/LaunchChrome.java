@@ -31,7 +31,7 @@ public class LaunchChrome {
 		CreateNewAcc.click();
 		WebElement FirstName = driver.findElement(By.xpath("//input[@name='firstname']"));
 		FirstName.sendKeys("Ravi");
-		driver.quit();
+		//driver.quit();
 	}
 
 }
